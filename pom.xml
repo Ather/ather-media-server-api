@@ -2,16 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <properties>
+        <maven.compiler.source>1.9</maven.compiler.source>
+        <maven.compiler.target>1.9</maven.compiler.target>
+    </properties>
+
     <parent>
-        <artifactId>the-hoard-media-server</artifactId>
-        <groupId>media.thehoard</groupId>
-        <version>0.4.2.101</version>
+        <artifactId>ather-media-server</artifactId>
+        <groupId>com.atherapp</groupId>
+        <version>LATEST</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>media.thehoard</groupId>
-    <artifactId>thehoardmediaserver-api</artifactId>
-    <version>0.0.1.3</version>
+    <artifactId>ather-media-server-api</artifactId>
 
-
+    <version>0.0.1</version>
 </project>
